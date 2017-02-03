@@ -1,0 +1,13 @@
+diff a/Assets/Scripts/Obstacles/ObstacleSpawner.cs b/Assets/Scripts/Obstacles/ObstacleSpawner.cs	(rejected hunks)
+@@ -67,8 +67,9 @@
+     {
+         while (existingObstacles[0].transform.position.x+keepObstInRange < posX)
+         {
+-            Destroy(existingObstacles[0]);
+-            existingObstacles.RemoveAt(0);
++            if(existingObstacles[0]!=null)
++                Destroy(existingObstacles[0]);
++                existingObstacles.RemoveAt(0);
+         }
+    }
+ 
