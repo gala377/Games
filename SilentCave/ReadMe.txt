@@ -22,3 +22,6 @@ This is the list of the ones that were:
 	
 I also worked on audio side of the game, textures and menu screen background 
 I'm a programmer though ;) 
+
+Classes lack documentation however, as I mentioned before it was written from skratch in just about 48
+hours with little to no sleep :D 
